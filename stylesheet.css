@@ -1,0 +1,471 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway";
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+#navbar {
+  height: 6rem;
+  width: 100%;
+}
+
+.icon-image {
+  margin: 3rem 0 0 4rem;
+}
+
+nav ul {
+  float: right;
+  margin: 3.5rem 4rem 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 3.3rem;
+  font-family: "Raleway", sans-serif;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#title {
+  padding: 4rem 4rem 16rem 4rem;
+  background: url(images/bg-curve-desktop.svg) no-repeat bottom;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr;
+  grid-template-areas: "left-title right-title";
+}
+
+#title h1 {
+  padding-right: 10%;
+  line-height: 1.5;
+}
+
+#title p {
+  padding-right: 15%;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+.right-title {
+  grid-area: right-title;
+}
+
+.left-title {
+  padding-top: 4%;
+  grid-area: left-title;
+}
+
+.image-folder {
+  width: 90%;
+  float: right;
+}
+
+.input-filed {
+  width: 16.5rem;
+  padding: 0.7rem 0.8rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-title {
+  padding: 0.8rem 3rem;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-title:hover {
+  background-color: hsl(224, 93%, 58%, 0.7);
+  cursor: pointer;
+}
+
+#stay-productive {
+  background-color: hsl(240, 75%, 98%);
+  padding: 0rem 4rem 7rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr;
+  grid-template-areas: "left-stay right-stay";
+}
+
+.right-stay {
+  grid-area: right-stay;
+}
+
+.left-stay {
+  grid-area: left-stay;
+}
+
+.stay-par {
+  line-height: 1.5;
+  padding-right: 5rem;
+}
+
+.see-how {
+  color: hsl(170, 45%, 43%, 0.7);
+  border-bottom: 1px solid;
+  padding-bottom: 0.6%;
+  width: fit-content;
+}
+
+.see-how:hover {
+  cursor: pointer;
+  color: hsl(170, 45%, 43%);
+}
+
+.box {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  padding: 5px 35px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.25) 0px 7px 29px 0px;
+  margin-top: 5%;
+}
+
+.comma {
+  font-size: 3rem;
+  padding-top: 0;
+  margin: -8% 0 3% 0;
+}
+
+.box-par {
+  padding-right: 0;
+  font-size: 14px;
+  margin: 0 0 18px 0;
+}
+
+.image-stay {
+  float: right;
+  width: 90%;
+  position: relative;
+  top: 15%;
+}
+
+.images-person {
+  border-radius: 55%;
+  width: 12%;
+  float: left;
+  margin-right: 3%;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.inf-kyle {
+  font-size: 11px;
+  opacity: 0.8;
+  position: absolute;
+}
+
+#get-early {
+  background-color: hsl(238, 22%, 44%);
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr;
+  grid-template-areas: "left-getEarly right-getEarly";
+}
+
+.left-getEarly {
+  color: white;
+  padding-right: 6rem;
+  grid-area: left-getEarly;
+}
+
+.right-getEarly {
+  padding: 5% 0 0 24.3%;
+  grid-area: right-getEarly;
+}
+
+.email-input {
+  height: 43px;
+  width: 318px;
+  padding: 0 15px;
+  border-radius: 2px;
+  text-decoration: none;
+  border: 0;
+}
+
+.btn-getStart {
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+  margin-top: 3%;
+  padding: 11px 35px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-getStart:hover {
+  background-color: hsl(224, 93%, 58%, 0.6);
+  cursor: pointer;
+}
+
+#footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 7rem 5rem;
+  color: white;
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr 0.4fr 0.4fr;
+  grid-template-rows: 4fr;
+  grid-template-areas: "first-div second-div thired-div fourth-div";
+}
+
+.first-div {
+  grid-area: first-div;
+  opacity: 0.8;
+}
+
+.second-div {
+  grid-area: second-div;
+  position: relative;
+  top: 50px;
+  opacity: 0.8;
+  padding-right: 10%;
+}
+
+.third-div {
+  grid-area: thired-div;
+  position: relative;
+  top: 50px;
+  opacity: 0.8;
+  padding-right: 10%;
+}
+
+.fourth-div {
+  grid-area: fourth-div;
+  position: relative;
+  top: 50px;
+  opacity: 0.8;
+  padding-right: 30%;
+}
+
+#footer ul li {
+  display: block;
+  margin-bottom: 6%;
+}
+
+#footer ul li:hover {
+  color: hsl(170, 45%, 43%, 0.6);
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.footer-icon {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.footer-icon:hover {
+  color: hsl(170, 45%, 43%, 0.6);
+}
+
+@media (max-width: 800px) {
+  .icon-image {
+    margin: 2rem 0 0 2rem;
+    width: 25%;
+  }
+
+  nav ul {
+    margin: 2.2rem 1.5rem 0 0;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    margin-left: 1rem;
+  }
+
+  #title {
+    text-align: center;
+    padding: 2rem 1rem 8rem 1rem;
+    background: url(images/bg-curve-mobile.svg) no-repeat bottom;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-areas:
+      "right-title"
+      "left-title";
+  }
+
+  #title h1 {
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.69rem;
+    margin-top: 10%;
+  }
+
+  #title p {
+    text-align: center;
+    padding: 0 0.25%;
+  }
+
+  .left-title {
+    padding-top: 4%;
+    grid-area: left-title;
+  }
+
+  .image-folder {
+    width: 100%;
+  }
+
+  .input-filed {
+    width: 91%;
+    margin-right: 0;
+  }
+
+  .btn-title {
+    margin-top: 5%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #stay-productive {
+    text-align: center;
+    padding: 1rem 1rem 6rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 1fr;
+    grid-template-areas:
+      "right-stay"
+      "left-stay";
+  }
+
+  .image-stay {
+    width: 100%;
+    position: relative;
+    top: 0%;
+    margin-bottom: 25%;
+  }
+
+  .left-stay h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .stay-par {
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .see-how {
+    margin-left: 25%;
+    padding-right: 0%;
+    padding-bottom: 0.6%;
+    border-bottom: 1px solid;
+    width: fit-content;
+  }
+
+  .box {
+    height: 190px;
+    width: 260px;
+    padding: 1px 25px;
+    margin-top: 5%;
+    text-align: left;
+    position: relative;
+    float: left;
+  }
+
+  .comma {
+    font-size: 3rem;
+    padding-top: 0;
+    margin: -8% 0 0.4rem 0;
+  }
+
+  .box-par {
+    font-size: 11.5px;
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+  }
+
+  .name {
+    font-size: 11px;
+  }
+
+  .inf-kyle {
+    font-size: 9px;
+  }
+
+  #get-early {
+    text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "left-getEarly "
+      "right-getEarly";
+  }
+
+  .left-getEarly {
+    padding: 0 5%;
+  }
+
+  .left-getEarly h2 {
+    font-size: 1rem;
+  }
+
+  .right-getEarly {
+    padding: 5% 0 0 0%;
+  }
+
+  .email-input {
+    height: 38px;
+    width: 240px;
+    padding: 0 15px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 0;
+  }
+
+  .btn-getStart {
+    width: 272px;
+  }
+
+  #footer {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.8fr 0.8fr 1fr;
+    grid-template-areas:
+      "first-div"
+      " second-div "
+      "thired-div "
+      "fourth-div";
+  }
+
+  .first-div {
+    padding: 3rem 1rem 0rem 2.4rem;
+  }
+
+  .fourth-div {
+    text-align: center;
+    padding-right: 0;
+  }
+}
